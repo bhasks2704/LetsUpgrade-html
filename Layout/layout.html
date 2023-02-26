@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Layout in Html</title>
+    <style>
+      .container,
+      .header,
+      .footer,
+      .nav,
+      .middle,
+      .left,
+      .right {
+        border: 1px solid #ccc;
+        padding: 20px;
+      }
+      .middle {
+        height: 300px;
+      }
+      .left {
+        /* this keep the content in left side  */
+        float: left;
+        width: 250px;
+      }
+      .right {
+        /* keeps content in Right */
+        float: right;
+        width: 250px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="test" class="container">
+      <div class="header">
+        Header
+        <div><h1>Welcome come to simple Layout in html.</h1></div>
+      </div>
+      <br />
+      <div class="nav" id="nav">
+        Navigation
+        <br />
+        <a href="#">Home</a>
+        <a href="#">about</a>
+        <a href="#">Contact</a>
+        <a href="#">Services</a>
+      </div>
+      <br />
+      <div class="middle" id="middle">
+        Middle
+        <br />
+        <div class="left" id="left">
+          <strong>Left</strong>
+          <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+          molestias soluta, odit cupiditate, quisquam tempore voluptate
+          provident, cum perferendis harum illo expedita quo iure quasi eius
+          commodi blanditiis hic fugit.
+        </div>
+        <div class="right" id="right">
+          <strong>Right</strong>
+          <br />
+          ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt, ex
+          aliquam molestias veniam natus, impedit rerum iure fugiat eum,
+          excepturi perferendis deserunt voluptas laborum soluta vero quos iusto
+          beatae maxime?
+        </div>
+      </div>
+      <br />
+      <div class="footer" id="footer">
+        Footer
+        <h4>&copy;Copright 2023</h4>
+      </div>
+    </div>
+  </body>
+</html>
