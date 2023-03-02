@@ -1,4 +1,4 @@
-.dropdown {
+.dropdown_button {
   border: none;
   outline: none;
   background-color: cadetblue;
@@ -13,13 +13,16 @@
   background-color: darkkhaki;
   width: 200px;
   text-align: center;
-  /* display: none; */
+  display: none;
 }
 .dropdown_list a {
-  display: none;
+  display: block;
   text-decoration: none;
   padding: 10px;
   color: black;
+  padding: 10px;
+  width: 100%;
+  color: aliceblue;
 }
 
 .dropdown:hover .dropdown_list {
