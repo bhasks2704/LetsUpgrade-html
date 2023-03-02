@@ -1,0 +1,27 @@
+.dropdown {
+  border: none;
+  outline: none;
+  background-color: cadetblue;
+  width: 200px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: aliceblue;
+  cursor: pointer;
+}
+.dropdown_list {
+  background-color: darkkhaki;
+  width: 200px;
+  text-align: center;
+  /* display: none; */
+}
+.dropdown_list a {
+  display: none;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+
+.dropdown:hover .dropdown_list {
+  display: block;
+}

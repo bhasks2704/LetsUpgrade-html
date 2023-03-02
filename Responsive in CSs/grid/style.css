@@ -1,0 +1,15 @@
+.grid-container {
+  display: grid;
+  /* grid-template-columns: 1fr 2fr 1fr;
+     */
+  grid-template-columns: 200px auto 300px;
+}
+
+.grid-container > div {
+  border: 5px solid black;
+  padding: 20px;
+}
+.sidebar-left {
+  display: inline;
+  grid-column: 1/3;
+}

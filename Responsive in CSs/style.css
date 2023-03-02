@@ -1,0 +1,25 @@
+body {
+  font-size: 18px;
+}
+
+img {
+  width: 100%;
+}
+
+/* small devices */
+@media (max-width: 500px) {
+  body {
+    background: linear-gradient(rgb(0, 195, 255), red, yellow);
+  }
+  h1:nth-child(1) {
+    display: block;
+  }
+  img {
+    width: 50%;
+    margin-left: 25%;
+    /* background-image: linear-gradient(rgb(0, 195, 255), red, yellow); */
+  }
+  p {
+    text-align: left;
+  }
+}
