@@ -1,0 +1,17 @@
+
+
+function countNumber(array,numsearch){
+let count=0;
+let index=-l;
+for (let i=0; i<array.length; i++){
+if (array[i]==numsearch){
+count++;
+if(count==l){
+break;
+}
+}
+return array[index];
+}
+}
+let array=[7,8,3,4,8,9,8]
+let res=countNumber(array,8);
